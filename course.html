@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendor/font-awesome/all.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/category.css">
+    <link rel="stylesheet" href="./css/course.css">
+    <link rel="stylesheet" href="./css/breadcrump.css">
+    <title>js course</title>
+</head>
+<body>
+    
+
+        <!-- start header -->
+        <header class="header">
+
+                <!-- start top-bar -->
+                <div class="top-bar">
+          <div class="container-fluid">
+              <div class="top-bar__content">
+                  <div class="top-bar__right">
+                      <ul class="top-bar__menu">
+                          <li class="top-bar__item">
+                              <a href="#" class="top-bar__link">
+                                  اموزش html
+                              </a>
+                          </li>
+                          <li class="top-bar__item">
+                              <a href="#" class="top-bar__link">
+                                  اموزش css
+                              </a>
+                          </li>
+                          <li class="top-bar__item">
+                              <a href="#" class="top-bar__link">
+                                  اموزش js
+                              </a>
+                          </li>
+                          <li class="top-bar__item">
+                              <a href="#" class="top-bar__link">
+                                  اموزش react
+                              </a>
+                          </li>
+                          <li class="top-bar__item">
+                              <a href="#" class="top-bar__link">
+                                  اموزش bootstrap
+                              </a>
+                          </li>
+                          <li class="top-bar__item">
+                              <a href="#" class="top-bar__link">
+                                  اموزش python
+                              </a>
+                          </li>
+                          <li class="top-bar__item">
+                              <a href="#" class="top-bar__link">
+                                  20000 تومن
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="top-bar__left">
+                      <div class="top-bar__email">
+                          <a href="" class="top-bar__email-text top-bar__link">sabzlearn@gmail.com</a>
+                          <i class="fas fa-anvelope top-bar__email-icon"></i>
+                      </div>
+                      <div class="top-bar__phone">
+                          <a href="" class="top-bar__phone-text top-bar__link">09212355489</a>
+                          <i class="fas fa-phone top-bar__phone-icon"></i>
+                      </div>
+                  </div>
+              </div>
+          </div>
+                </div>
+                <!-- finish top-bar -->
+      
+                <!-- start template navbar -->
+                <div class="main-header"> 
+          <div class="container">
+              <div class="main-header__content">
+                   <div class="main-header__right">
+                    <img src="./images/logo/Logo.png" class="main-header__logo" alt="sabzlearn logo">
+      
+                    <ul class="main-header__menu">
+                      <li class="main-header__item">
+                          <a href="#" class="main-header__link">صفحه ی اصلی </a>
+                      </li>
+      
+                      <li class="main-header__item">
+                          <a href="#" class="main-header__link"> فرانت اند
+                            <i class="fas fa-angle-down msin-heder__link-icon"></i>
+                              <ul class="main-header__dropdown">
+                                <li class="main-header__dropdown-item">
+                                  <a href="#" class="main-header__dropdown-link">اموزش html</a>
+                                </li>
+                                <li class="main-header__dropdown-item">
+                                  <a href="#" class="main-header__dropdown-link">اموزش css</a>
+                                </li>
+                                <li class="main-header__dropdown-item">
+                                  <a href="#" class="main-header__dropdown-link">اموزش js</a>
+                                </li>
+                                <li class="main-header__dropdown-item">
+                                  <a href="#" class="main-header__dropdown-link">اموزش react</a>
+                                </li>
+                                <li class="main-header__dropdown-item">
+                                  <a href="#" class="main-header__dropdown-link">اموزش bootstrap</a>
+                                </li>
+                                <li class="main-header__dropdown-item">
+                                  <a href="#" class="main-header__dropdown-link">اموزش flex box</a>
+                                </li>
+                                <li class="main-header__dropdown-item">
+                                  <a href="#" class="main-header__dropdown-link">اموزش css grid</a>
+                                </li>
+                              </ul>
+                          </a>
+                      </li>
+      
+                      <li class="main-header__item">
+                          <a href="#" class="main-header__link"> امنیت
+                            <i class="fas fa-angle-down msin-heder__link-icon"></i>
+                              <ul class="main-header__dropdown">
+                                <li class="main-header__dropdown-item">
+                                  <a href="#" class="main-header__dropdown-link">اموزش کالی لینوکس</a>
+                                </li>
+                                <li class="main-header__dropdown-item">
+                                  <a href="#" class="main-header__dropdown-link">اموزش پایتون سیا</a>
+                                </li>
+                                <li class="main-header__dropdown-item">
+                                  <a href="#" class="main-header__dropdown-link">اموزش  جاوا اسکریپت سیاه</a>
+                                </li>
+                                <li class="main-header__dropdown-item">
+                                  <a href="#" class="main-header__dropdown-link">اموزش شبکه</a>
+                                </li>
+                              </ul>
+                          </a>
+                      </li>
+      
+                      <li class="main-header__item">
+                          <a href="#" class="main-header__link"> مقالات
+                            <i class="fas fa-angle-down msin-heder__link-icon"></i>
+                              <ul class="main-header__dropdown">
+                                <li class="main-header__dropdown-item">
+                                  <a href="#" class="main-header__dropdown-link">  توسعه ی وب</a>
+                                </li>
+                                <li class="main-header__dropdown-item">
+                                  <a href="#" class="main-header__dropdown-link"> جاوا اسکریپت </a>
+                                </li>
+                                <li class="main-header__dropdown-item">
+                                  <a href="#" class="main-header__dropdown-link">    فرانت اند</a>
+                                </li>
+                              </ul>
+                          </a>
+                      </li>
+      
+                      <li class="main-header__item">
+                          <a href="#" class="main-header__link"> پایتون
+                            <i class="fas fa-angle-down msin-heder__link-icon"></i>
+                              <ul class="main-header__dropdown">
+                                <li class="main-header__dropdown-item">
+                                  <a href="#" class="main-header__dropdown-link">   پایتون سیاه </a>
+                                </li>
+                                <li class="main-header__dropdown-item">
+                                  <a href="#" class="main-header__dropdown-link">  ابزار نویسی با پایتون </a>
+                                </li>
+                                <li class="main-header__dropdown-item">
+                                  <a href="#" class="main-header__dropdown-link">      متخصص پایتون</a>
+                                </li>
+                              </ul>
+                          </a>
+                      </li>
+             
+                      <ul class="main-header__menu">
+      
+                      <li class="main-header__item">
+                          <a href="#" class="main-header__link"> مهارت های نرم </a>
+                      </li>
+      
+      
+                  
+                    </ul>
+                   </div>
+      
+                   <div class="main-header__left">
+                   <a href="#" class="main-header__search-btn">
+                      <i class="fas fa-search main-header__search-icon"></i>
+                   </a>
+                   <a href="#" class="fas main-header__cart-btn">
+                      <i class="fas fa-shopping-cart main-header__cart-icon"></i>
+                   </a>
+                   <a href="#" class="main-header__profile">
+                      <span class="main-header__profile-text">  وزرود / ثبت نام</span>
+                   </a>
+                   </div>
+              </div>
+          </div>
+                </div>
+                <!-- finish template navbar -->
+    
+        </header>
+        <!-- finish header -->
+      
+
+        <!-- start beardcrump -->
+        <section class="beardcrump">
+            <div class="container">
+              <div class="beardcrump__content">
+                <div class="breadcrum__home-content-icon">
+                  <i class="fas fa-home breadcrump__home-icon"></i>
+                </div>
+                <ul class="breadcrump__list">
+                  <li class="breadcrump__item">
+                    <a href="#" class="breadcrump__link">
+                      خانه
+                      <i class="fas fa-angle-left breadcrump__icon"></i>
+                    </a>
+                  </li>
+                  <li class="breadcrump__item">
+                    <a href="#" class="breadcrump__link">
+                      اموزش برنامه نویسی فرانت اند
+                      <i class="fas fa-angle-left breadcrump__icon"></i>
+                    </a>
+                  </li>
+                  
+                  <li class="breadcrump__item">
+                    <a href="#" class="breadcrump__link">
+                      اموزش 20 کتابخانه جاوااسکریپت برای بازار کا 
+                    </a>
+                  </li>
+                  
+                  
+                </ul>
+              </div>
+            </div>
+      
+        </section>
+        <!-- finish beardcrump -->
+
+
+        <!-- start course main info -->
+          <section class="course-info">
+  <div class="container">
+
+      <div class="row">
+
+        <div class="col-6">
+          <a href="#" class="course-info__link">
+            اموزش برنامه نویسی فرانت اند
+          </a>
+          <h1 class="course-info__title">
+            اموزش 20 کتابخانه جاوا اسکریپت برای بازار کار
+          </h1>
+          <p class="course-info__text">
+                     Lorem ipsum dolor sit amet consectetur 
+                    Aliquid fugiat labore asperiores, nulla ducimus adipisci <br> necessitatibus voluptas numquam, ipsum id mollitia Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, repudiandae!
+          </p>
+          <div class="course-info__social-media">
+                <a href="#" class="course-info__social-media-item">
+                   <i class="fas fa-telegram-plane course-info__icon"></i>
+                </a>
+                <a href="#" class="course-info__social-media-item">
+                  <i class="fas fa-twitter course-info__icon"></i>
+               </a>
+               <a href="#" class="course-info__social-media-item">
+                <i class="fas fa-facebook-f course-info__icon"></i>
+             </a>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <video src="" poster="./images/courses/fareelancer.png" class="course-info__video" controls ></video>
+        </div>
+
+      </div>
+    
+  </div>
+            </section>
+        <!-- finish course main info -->
+
+
+        <!-- start main body section -->
+            <main class="main">
+
+               <div class="container">
+                <div class="row">
+
+                  <div class="col-8">
+                    <div class="course">
+                    <!-- start course boxes-->
+                    <div class="course-boxes">
+                      <div class="row">
+
+                        <div class="col-4">
+                          <div class="course-boxes__box">
+                            <div class="course-boxes__box-right">
+                              <i class="course-boxes__box-right-icon fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="course-boxes__box-left">
+                              <span class="course-box__box-left-title">
+                                وضعیت دوره 
+                              </span>
+                              <span class="course-box__box-left-subtitle">
+                                به اتمام رسیده
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-4">
+                          <div class="course-boxes__box">
+                            <div class="course-boxes__box-right">
+                              <i class="course-boxes__box-right-icon fas fa-clock "></i>
+                            </div>
+                            <div class="course-boxes__box-left">
+                              <span class="course-box__box-left-title">
+                                مدت زمان دوره
+                              </span>
+                              <span class="course-box__box-left-subtitle">
+                                19ساعت
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="col-4">
+                          <div class="course-boxes__box">
+                            <div class="course-boxes__box-right">
+                              <i class="course-boxes__box-right-icon fas fa-calendar-alt"></i>
+                            </div>
+                            <div class="course-boxes__box-left">
+                              <span class="course-box__box-left-title">
+                                اخرین بروز رسانی
+                              </span>
+                              <span class="course-box__box-left-subtitle">
+                                02/020/103
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-4">
+                          <div class="course-boxes__box">
+                            <div class="course-boxes__box-right">
+                              <i class="course-boxes__box-right-icon fas fa-user"></i>
+                            </div>
+                            <div class="course-boxes__box-left">
+                              <span class="course-box__box-left-title">
+                                روش پشتیبانی
+                              </span>
+                              <span class="course-box__box-left-subtitle">
+                                انلاین
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-4">
+                          <div class="course-boxes__box">
+                            <div class="course-boxes__box-right">
+                              <i class="course-boxes__box-right-icon fas fa-info-circle"></i>
+                            </div>
+                            <div class="course-boxes__box-left">
+                              <span class="course-box__box-left-title">
+                                پیش نیاز
+                              </span>
+                              <span class="course-box__box-left-subtitle">
+                                 html css
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-4">
+                          <div class="course-boxes__box">
+                            <div class="course-boxes__box-right">
+                              <i class="course-boxes__box-right-icon fas fa-play"></i>
+                            </div>
+                            <div class="course-boxes__box-left">
+                              <span class="course-box__box-left-title">
+                                نوع مشاهده
+                              </span>
+                              <span class="course-box__box-left-subtitle">
+                                ضبط شده/ انلاین 
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                    <!-- finish course boxes -->
+
+                     <!-- start progress bar -->
+                    <div class="course-progress">
+                      <div class="course-progress__hesder">
+                        <i class="fas fa-chart-line course-progress__icon"></i>
+                        <span class="course-progress__title">درصد پیشرفت دوره 100%</span>
+                      </div>
+                      
+                        <div class="progress corse-progress__bar">
+                          <div class="progress-bar w-75" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                          </div>
+                        
+                      </div>
+                    </div>
+                     <!-- finish progress bar -->
+
+
+                     <!-- start introduction  -->
+                    <div class="introduction">
+
+                         <div class="introduction__item">
+                        <span class="introduction__title title">اموزش 20 کتابخانه جاوااسکریپت برای بازار کار
+                        </span>
+                        <img src="./images/courses/js_project.png" alt="course-info -img" class="introduction__img img-fluid">
+                        <p class="introduction__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequuntur error eius in qui laboriosam minima maiores libero ullam perspiciatis? Omnis assumenda placeat dolore, eius vero culpa tempora voluptatem soluta, harum sint itaque molestiae eaque?</p>
+                        <p class="introduction__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit hic architecto commodi corporis consectetur nobis maxime repellat earum voluptatem est eaque sunt harum suscipit repudiandae dicta, quisquam atque provident perspiciatis facere, quo iste? Tenetur ab tempore totam quo id animi expedita earum ducimus, doloremque autem.</p>
+                         </div>
+
+                         <div class="introduction__item">
+                        <span class="introduction__title title">اموزش نور جی اس برای بازار کار
+                        </span>
+                        <img src="./images/courses/nodejs.png" alt="course-info -img" class="introduction__img img-fluid">
+                        <p class="introduction__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequuntur error eius in qui laboriosam minima maiores libero ullam perspiciatis? Omnis assumenda placeat dolore, eius vero culpa tempora voluptatem soluta, harum sint itaque molestiae eaque?</p>
+                        <p class="introduction__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit hic architecto commodi corporis consectetur nobis maxime repellat earum voluptatem est eaque sunt harum suscipit repudiandae dicta, quisquam atque provident perspiciatis facere, quo iste? Tenetur ab tempore totam quo id animi expedita earum ducimus, doloremque autem.</p>
+                        <p class="introduction__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni dolorem voluptatem qui beatae quibusdam maiores aperiam, ex illum placeat rerum animi ipsum totam delectus, quasi quia sint quaerat temporibus cumque.</p>
+                         <p class="introduction__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni dolorem voluptatem qui beatae quibusdam maiores aperiam, ex illum placeat rerum animi ipsum totam delectus, quasi quia sint quaerat temporibus cumque.</p>
+                    
+                       <p class="introduction__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni dolorem voluptatem qui beatae quibusdam maiores aperiam, ex illum placeat rerum animi ipsum totam delectus, quasi quia sint quaerat temporibus cumque.</p>  
+                            <p class="introduction__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.   Magni   dolorem voluptatem qui beatae quibusdam maiores aperiam, ex illum placeat rerum animi ipsum totam delectus, quasi quia sint quaerat temporibus cumque.</p>
+                          </div>
+                 
+                          <div class="introduction__btns">
+                            <a href="#" class="introduction__btns-item ">دانلود همگانی ویدیو</a>
+                          <a href="#" class="introduction__btns-item">دانلود همگانی پیوست ها</a>
+                          </div>
+
+                          <div class="introduction__topic">
+                            <div class="accordion" id="accordionExample">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                   معرفی دوره
+                                  </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body introduction__accardion-body">
+
+                                     <div class="introduction__accardion-right">
+                                      <span class="introduction__accardion-count">1</span>
+                                      <i class="fab fa-youtube introducton__accardion-icon"></i>
+                                      <a href="#" class="introduction__accardion-text">معرفی دوره </a>
+                                     </div>
+
+                                     <div class="introduction__accardion-left">
+                                      <span class="introduction__accardion-time">
+                                        18:34
+                                      </span>
+                                     </div>
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                           
+                            </div>
+                          </div>
+
+                      </div>
+                     <!-- finish introduction  -->
+
+                     <!-- start teacher details -->
+                     <div class="teacher-details">
+                      <div class="teacher-details__header">
+                        <div class="teacher-details__right">
+                          <img src="./images/" alt="teacher-profile" class="teacher-details__profile">
+                          <div class="teacher-detail__header-titles">
+                            <a href="#" class="teacher-details__header-link">محمد امین سعیدی راد</a>
+                            <span class="teacher-details__header-skills">
+                              front end developer
+                            </span>
+                          </div>
+                        </div>
+                        <div class="teacher-details__left">
+                          <i class="fas fa-chalkboard-teacher teacher-details__header-icon"></i>
+                          <span class="teacher-details__header-name">مدرس</span>
+                        </div>
+                      </div>
+                      <p class="teacher-details__footer"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, temporibus aut quasi laborum illum a!</p>
+                     </div>
+                      <!-- finish teacher details -->
+
+                  </div>
+                  </div>
+
+
+                   <div class="col-4">
+                    <div class="courses-info">
+                      <div class="course-info">
+                        <div class="course-info__register">
+                          <span class="course-info__reguster-title">
+                            دانشجوی دوره هستید
+                             <i class="fas fa-graduation-cap courses-info__register-icon"></i>
+                          </span>  
+                        </div>
+                      </div>
+
+                      <div class="course-info">
+                        <div class="course-info__total">
+                          <div class="course-info__top">
+                            <div class="course-info__total-sale">
+                              <i class="fas fa-user-graduate course-info__total-sale-icon"></i>
+                              <span class=" course-info__total-sale-text">
+                                user count
+                              </span>
+                              <span class=" course-info__total-sale-num">
+                                187
+                              </span>
+                            </div>
+                          </div>
+                          <div class="course-info__bottom">
+                            <div class="course-info__total-comment">
+                              <i class="fas fa-comments course-info__total-comment-icon"></i>
+                              <span class="course-info__total-comment-text">67 comments </span>
+                            </div>
+                            <div class="course-info__total-view">
+                              <i class="fas fa-eye course-info__total-view-icon"></i>
+                              <span class="course-info__total-view-text">67 view </span>
+                            </div>
+                        
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="course-info">
+                        <div class="course-info__header-short-url">
+                          <i class="fas fa-link course-info__sort-url-icon"></i>
+                          <span class="course-info__sort-url-text">لینک کوتا</span>
+                        </div>
+                        <span class="course-info__short-url">
+                          https://sabzlearn.ir
+                        </span>
+                      </div>
+
+                      <div class="course-info">
+                        <span class="course-info__topic-title">
+                          سر فصل های دور
+                        </span>
+                        <span class="course-info__topic-text">
+                          برای مشاهده و یا دانلود دوره روی <a href="#" style="color: blue; font-weight: bold;">لینک </a>کلیک کنید
+                        </span>
+
+                      </div>
+
+                      <div class="course-info">
+                        <span class="course-info__courses-title">محصولات</span>
+                        <ul class="course-info__courses-list">
+                          <li class="course-info__courses-list-item">
+                            <a href="#" class="corse-info__courses-link">
+                              <img src="./images/courses/jango.png" alt="course cover" class="course-info__courses-img">
+                              <span class="course-info__courses-text">متخصص شدن باجنگو</span>
+                            </a>
+                          </li>
+                        </ul>
+
+                        <ul class="course-info__courses-list">
+                          <li class="course-info__courses-list-item">
+                            <a href="#" class="corse-info__courses-link">
+                              <img src="./images/courses/js_project.png" alt="course cover" class="course-info__courses-img">
+                              <span class="course-info__courses-text">پروجه تخصصی با جاوا اسکریپبت</span>
+                            </a>
+                          </li>
+                        </ul>
+
+                        <ul class="course-info__courses-list">
+                          <li class="course-info__courses-list-item">
+                            <a href="#" class="corse-info__courses-link">
+                              <img src="./images/courses/nodejs.png" alt="course cover" class="course-info__courses-img">
+                              <span class="course-info__courses-text">متخصص شدن با نود جی اس</span>
+                            </a>
+                          </li>
+                        </ul>
+
+
+                        <ul class="course-info__courses-list">
+                          <li class="course-info__courses-list-item">
+                            <a href="#" class="corse-info__courses-link">
+                              <img src="./images/courses/python.png" alt="course cover" class="course-info__courses-img">
+                              <span class="course-info__courses-text">متخصص شدن با جاوا پایتون</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+
+                    </div>
+                   </div>
+
+                </div>
+               </div>
+            </main>
+        <!-- finish main body section -->
+
+
+
+         <!-- start footer -->
+         <footer class="footer">
+                <div class="container">
+                  <div class="footer-widgets">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="footer-widgets__item">
+                          <span class="footer-widgets__title">
+                            درباره ی ما 
+                          </span>
+                          <p class="footer-widgets__text">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, aperiam eveniet reprehenderit autem quaerat consequuntur delectus. Consequuntur provident culpa eum quo dicta repellat nulla deleniti cumque, numquam temporibus at aperiam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci maiores quae id voluptate asperiores maxime repellendus dolorum, similique vitae reiciendis, deleniti debitis consequuntur, iste fugit optio ex in recusandae quisquam?
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tenetur tempore doloremque, asperiores magni laudantium laboriosam possimus. Praesentium explicabo nemo quos ad, corrupti ab officiis natus, mollitia officia similique repellat.
+                          </p>
+                        </div>
+                      </div>
+              
+                      <div class="col-4">
+                        <div class="footer-widgets__item">
+                          <span class="footer-widgets__title"> اخرین مطالب
+                          </span>
+                         <div class="footer-widgets__links"> 
+                          <a href="#" class="footer-widgets__link">Lorem ipsum dolor sit.</a>
+                          <a href="#" class="footer-widgets__link">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, repellendus.</a>
+                          <a href="#" class="footer-widgets__link">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                          <a href="#" class="footer-widgets__link">Lorem ipsum dolor sit amet.</a>
+                          <a href="#" class="footer-widgets__link">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aliquam pariatur excepturi rerum!</a>
+                         </div>
+                         <a href="#" class="footer-widgets__link">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aliquam pariatur excepturi rerum!</a>
+                        </div>
+                        </div>
+              
+                        <div class="col-4">
+                          <div class="footer-widgets__item">
+                            <span class="footer-widgets__title"> دسترسی سریع
+                            </span>
+                         <div class="col-6">
+                          <a href="#" class="footer-widgets__link">Lorem, ipsum.</a>
+              
+                        </div>
+                          <div class="col-6">
+                          <a href="#" class="footer-widgets__link">Lorem, ipsum.</a>
+              
+                        </div>
+                          <div class="col-6">
+                          <a href="#" class="footer-widgets__link">Lorem, ipsum dolor.</a>
+              
+                        </div>
+                          <div class="col-6">
+                          <a href="#" class="footer-widgets__link">Lorem ipsum dolor sit.</a>
+              
+                        </div>
+                          <div class="col-6">
+                          <a href="#" class="footer-widgets__link">Lorem ipsum dolor sit amet consectetur.</a>
+              
+                        </div>
+                         </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer__copy-right">
+                  <span class="footer__copy-right-text">کلییه ی حقوق برای سبز لرن محفوض است</span>
+                 
+                </div>
+         </footer>
+         <!-- finish footer -->
+
+            
+
+         <script src="./vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./vendor/font-awesome/all.min.js"></script>
+</body>
+</html>

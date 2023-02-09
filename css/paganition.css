@@ -1,0 +1,39 @@
+@import url(./variables.css);
+@import url(./fonts.css);
+@import url(./top-bar.css);
+@import url(./navbar.css);
+@import url(./default.css);
+@import url(./footer.css);
+@import url(./course-box.css);
+
+.courses-paganition{
+    margin: 3rem 0;
+  }
+  
+  .courses__paganition-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .courses__paganition-link{
+  border-radius: 0.5rem;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: #f0f0f1;
+  margin: 0.5rem;
+  }
+  
+  .courses__paganition-link:hover{
+    background-color: var(--primary-color);
+    color: #dcdcdc;
+  }
+  
+  .courses__paganition-link--active{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+  }
